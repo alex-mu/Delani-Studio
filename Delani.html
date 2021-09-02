@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <title>Delani Studio</title>
+</head>
+
+<style>
+* {
+    align-content: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: azure;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
+}
+
+.center {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    align-content: stretch;
+   
+}
+
+.grid-container {
+    display: grid;
+    align-content:center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.grid-container > li {
+    align-items: center;
+    justify-content: space-evenly;
+}
+#leftContainer {
+    float: left;
+    background: transparent;
+    background-image: url();
+}
+#rightContainer {
+    float: right;
+    background: transparent;
+    background-image: url();
+   
+}
+#text {
+    float: center;
+    background: transparent;
+    background-image: url();
+}
+    
+</style>
+
+<!--header-->
+<body>
+  <div class="container" style="width: fit-content;">
+      
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true" alt="machine" style="width:fit-content;">
+      <h1 class="centered">WELCOME <br>TO DELANI STUDIO</br></h1>
+  </div> 
+
+  <!--about section-->
+  <div class="center" style="width: fit-content;">
+   <div>
+    <h3>ABOUT US</h3>
+     <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software design process are intergrated, interactive<br>and agile</br></p>
+     <p>Our approach unifies design, development and product management to create exceptional products</p>
+     <p>We start each project by understanding your business goals, the user's needs and the product requirement</p>
+     <p>Then we help translate them into effective and elegant solutions</p>
+  </div>
+   
+<div class="container" style="width: fit-content;">
+    <div>
+    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true" alt="#" style="width:fit-content;">
+    <div class="centered">
+    <h2>Services</h2>
+    <p>Before we sign a contractor write a line of code our team will spend the necessary amount of time needed to understand your product vision.
+    <br>The outcome of this scoping session is a proposal of high-level of work</br>
+    <br>Based on your requirements, we can provide a complete offering or just the pieces you need</br></p>
+</div>
+    </div>
+</div class="center">
+    <h3>WHAT WE DO</h3>
+    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/design_icon.png?raw=true">
+    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/dev_icon.png?raw=true">
+    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/product_icon.png?raw=true">
+
+    <h3>Portfolio</h3>
+    <ul class="grid-container" style="width: fit-content;">
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work1.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work2.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work3.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work4.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work5.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work6.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work7.jpg?raw=true"></li>
+        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work8.jpg?raw=true"></li>
+    </ul>
+    </div>
+</div>
+  </div>
+  <div>
+      <div class="container" style="position: relative;">
+          <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true" alt="#" style="width: fit-content;">
+          <div class="centered">
+          <h3>CONTACT US</h3>
+          <p>
+           <label></label>
+           <textarea  id="leftContainer" type="text" maxlength="200"  placeholder="Name..."></textarea>
+           <label></label>
+           <textarea  id="rightContainer" type="text" maxlength="200"  placeholder="Email..."></textarea>
+           <label></label>
+           <textarea  id="text" type="text" maxlength="400" rows="7" placeholder="comment..."></textarea>
+          </p>
+          </div>
+      </div>
+
+  </div>
+  <div class="center">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/behance.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/dribble.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/facebook.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/flickr.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/g_plus.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/pinterest.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/skype.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/stumble_upon.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/twitter.png?raw=true">
+      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/you_tube.png?raw=true">
+  </div>
+  <footer class="center">Delani Studio<br>2019</br></footer>
+</body>
+</html>
