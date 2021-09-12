@@ -2,6 +2,7 @@
     align-content: center;
 }
 .container {
+    width: fit-content;
     position: relative;
     text-align: center;
     color: azure;
