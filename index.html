@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -38,34 +42,90 @@
 <!--what we do section-->
         <div class="we">
             <h2>WHAT WE DO</h2>
+            <ul>
             <img src="images/assets/services_icons/design_icon.png" alt="design"><p>DESIGN</p>
             <img src="images/assets/services_icons/dev_icon.png" alt="dev"><p>DEVELOPMENT</p>
             <img src="images/assets/services_icons/product_icon.png" alt="product"><p>PROJECT MANAGEMENT</p>
+            </ul>
         </div>
 
 <!--portfolio section-->
         <h2>PORTFOLIO</h2>
-        <div class="portcontainer">
-            <div class="img"><img src="images/assets/portfolio/work1.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work2.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work3.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work4.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work5.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work6.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work7.jpg"></div>
-            <div class="img"><img src="images/assets/portfolio/work8.jpg"></div>
+        <div class="grid-container">
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo1"></div>
+                <div class="text-a">Project 1</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo2"></div>
+                <div class="text-b">Project 2</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo3"></div>
+                <div class="text-c">Project 3</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo4"></div>
+                <div class="text-d">Project 4</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo5"></div>
+                <div class="text-e">Project 5</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo6"></div>
+                <div class="text-f">Project 6</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo7"></div>
+                <div class="text-g">Project 7</div>
+            </div>
+
+            <div class="img-and-text-wrapper">
+                <div class="img"><img src="" alt="photo8"></div>
+                <div class="text-h">Project 8</div>
+            </div>
         </div>
 
+<!--contact form section-->
         <div class="contact">
             <h2>CONTACT US</h2>
             <form>
                 <label for="name"></label>
                 <input type="text" id="name" placeholder="Name...">
                 <label for="email"></label>
-                
+                <input type="text" id="email" placeholder="Email...">
+                <br><br>
+                <label for="message" id="message"></label>
+                <textarea name="message" cols="70" rows="30" placeholder="Your message here..."></textarea>
             </form>
         </div>
     </section>
+
+    <footer>
+        <div class="icons">
+            <img src="images/assets/social_icons/behance.png">
+            <img src="images/assets/social_icons/dribble.png">
+            <img src="images/assets/social_icons/facebook.png">
+            <img src="images/assets/social_icons/flickr.png">
+            <img src="images/assets/social_icons/g_plus.png">
+            <img src="images/assets/social_icons/pinterest.png">
+            <img src="images/assets/social_icons/skype.png">
+            <img src="images/assets/social_icons/stumble_upon.png">
+            <img src="images/assets/social_icons/twitter.png">
+            <img src="images/assets/social_icons/you_tube.png">
+            <p>DELANI STUDIO</p>
+            <p>2019</p>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>   
     
 </body>
 </html>
