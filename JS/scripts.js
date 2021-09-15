@@ -1,76 +1,50 @@
+function style(){
+    $("#what-we-do h5").addClass("text-center fw-bold")
+    $("#what-we-do p").addClass("text-center")
+
+}
 $(document).ready(function(){
-    $(".para-one").hide();
-    $(".para-two").hide();
-    $(".para-three").hide();
+    /* toggle What We Do Section */
+    $(".icon").click(function(){
+        style();
+        $(this).toggle();
+        $(this).siblings().toggle();
+      });
 
-
-    $(".text-a, .text-b, .text-c, .text-d, .text-e, .text-f, .text-g, .text-h ").hide();
-
-    
-    $("img[alt=design]").on("click",function(){
-        $("img[alt=design]").hide();
-        $(".para-one").show();
-        
+    $(".info").click(function(){
+        style();
+        $(this).siblings().toggle();
+        $(this).toggle();
     })
+    /* add hover effect to portfolio section */
 
-    $(".para-one ,.head-one").on("click",function(){
-        $("img[alt=design]").show();
-        $(".para-one").hide();
-    })        
+    $(".portfolio-img").hover(function(){
+        let target = $(this).children('div');
+        target.css({'opacity':"1"});
+    },
+    function(){
+        $(this).children('div').css({'opacity':"0"});
 
-
-    $("img[alt=dev]").on("click",function(){
-        $("img[alt=dev]").hide();
-        $(".para-two").show();
     })
+    /* form validation */
+    function validateForm(e){
+        e.preventDefault();
+        fname = $("#fname").val().toUpperCase();
+        email = $("#email").val();
+        message = $("message").val();
+        if(fname==="" || email==="" || message === ""){
+            alert("form invalid :: All fields must be filled")
+        }else{
+            alert(`${fname}  we have received your message. Thank you for reaching out to us.`)
+        }
+    }
+    $("#contact-form").submit(validateForm)
 
-    $(".para-two, .head-two").on("click",function(){
-        $("img[alt=dev]").show();
-        $(".para-two").hide();
-    }) 
+
+
+    /* get current year for footer section */    
+    let year= new Date().getFullYear()
     
-    
+    $("#year").text(year);
 
-    $("img[alt=manage]").on("click",function(){
-        $("img[alt=manage]").hide();
-        $(".para-three").show();
-    })
-
-    $(".para-three, .head-three").on("click",function(){
-        $("img[alt=manage]").show();
-        $(".para-three").hide();
-    })      
-        //Portfolio section working on the hover effect
-
-    $("img[alt=photo1").hover(function(){
-        $(".text-a").toggle();
-    });
-
-    $("img[alt=photo2").hover(function(){
-        $(".text-b").toggle()
-    });
-
-    $("img[alt=photo3").hover(function(){
-        $(".text-c").toggle()
-    });
-
-    $("img[alt=photo4").hover(function(){
-        $(".text-d").toggle()
-    });
-
-    $("img[alt=photo5").hover(function(){
-        $(".text-e").toggle()
-    });
-
-    $("img[alt=photo6").hover(function(){
-        $(".text-f").toggle()
-    });
-
-    $("img[alt=photo7").hover(function(){
-        $(".text-g").toggle()
-    });
-
-    $("img[alt=photo8").hover(function(){
-        $(".text-h").toggle()
-    });
 });
