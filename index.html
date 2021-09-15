@@ -4,88 +4,244 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <title>Delani Studio</title>
+      <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" href="./assets/img/logo/logo.png">  
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Delani-Studio</title>
 </head>
-
-
-<!--header-->
 <body>
-  <div class="container" style="width: fit-content;">
-      
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true" alt="machine" style="width:fit-content;">
-      <h1 class="centered">WELCOME <br>TO DELANI STUDIO</br></h1>
-  </div> 
+    <!-- Start of the Header Section -->
+    <section id="header">
+        <div class="hero-section">
+            <img src="./assets/img/logo/logo.png" alt="">
+            <h1>WELCOME</h1>
+            <h1>TO DELANI STUDIO</h1>
+            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</p>
+            <img class="mt-5" src="./assets/img/mouse_click.png" alt="">
+        </div>
+    </section>
+    <!-- End of the header section -->
+    <!-- Start of the About Section -->
+    <section id="about">
+        <div class="container">
+            <h1 class="text-center mt-4">ABOUT US</h1>
+            <p class="text-center">
+                When you work with us, you are part of a team of collaborators, All aspects of our software development process are intergrated, interactive
+                <br> and agile.</p>
+            <p class="text-center"> 
+                Our approach unfies design, development and product management to create execeptional products.<br>
+                We start each project by understanding your business goals, the user's needs and the product requirements
+            </p>
+            <p class="text-center"> 
+                   Then we help translate them into effective and elegant solutions.
+            </p>
+        </div>
+    </section>
+    <!-- End of the About Section -->
+    <!-- Start of the Service Section -->
+    <section id="service">
+        <div class="container py-5">
+            <div class="row align-self-center" id="p-service">
+                <div class="col">
+                    <h1 class="text-center">SERVICES</h1>
+                </div>
+            </div>
+            <div class="row align-self-center" id="p-service">
+                <p class="text-center">Before we sign a contact or write a line of code our
+                    team will spend the necessary 
+                    time needed to understand your product vision.</p>
+                <p class="text-center">The outcome of this scoping session is a proposal or high-lever statement of work.</p>
+                <p class="text-center">based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of the Service Section -->
+    <!-- Start of what we do Section -->
+    <section id="what-we-do">
+        <div class="container">
+            <h1 class="text-center py-4">WHAT WE DO</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="design-img" class="icon ">
+                        <img class="mx-auto d-block"src="./assets/img/design-img.png" alt="">
+                        <figcaption class="text-center">DESIGN</figcaption>
+                    </div>
+                    <div id="design-description" class="info" >
+                        <h5>DESIGN</h5>
+                        <p>
+                            Our design practice offers a full range of services including brand strategy, 
+                            interaction and visual design and user experience testing.
+                        </p>
+                        <p>
+                            Throughout your project, our designers create and implement visual design and workflows, 
+                            solicit user feedback and work with you to make sure what gets built is what is needed.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="development-img" class="icon">
+                        <img class="mx-auto d-block"src="./assets/img/development-img.png" alt="">
+                        <figcaption class="text-center">DEVELOPMENT</figcaption>
+                    </div>
+                    <div id="development-description" class="info">
+                        <h5>DEVELOPMENT</h5>
+                        <p>
+                            All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                        </p>
+                        <p>
+                            They collaborate with your team to write, and improve code on a daily basis, using proven 
+                            practices such as test-driven development and pair programming.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div id="product-img" class="icon">
+                        <img class="mx-auto d-block"src="./assets/img/product-img.png" alt="">
+                        <figcaption class="text-center">PRODUCT MANAGEMENT</figcaption>
+                    </div>
+                    <div id="product-description" class="info">
+                        <h5>PRODUCT MANAGEMENT</h5>
+                        <p>
+                            Planning and development is iterative. Because we are constantly coding and testing, 
+                            the products we build are always ready to go live.
+                        </p>
+                        <p>
+                            This iterative process allows for changes as business requirements evolve.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <!--about section-->
-  <div class="center" style="width: fit-content;">
-   <div>
-    <h3>ABOUT US</h3>
-     <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software design process are intergrated, interactive<br>and agile</br></p>
-     <p>Our approach unifies design, development and product management to create exceptional products</p>
-     <p>We start each project by understanding your business goals, the user's needs and the product requirement</p>
-     <p>Then we help translate them into effective and elegant solutions</p>
-  </div>
-   
-<div class="container" style="width: fit-content;">
-    <div>
-    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true" alt="#" style="width:fit-content;">
-    <div class="centered">
-    <h2>Services</h2>
-    <p>Before we sign a contractor write a line of code our team will spend the necessary amount of time needed to understand your product vision.
-    <br>The outcome of this scoping session is a proposal of high-level of work</br>
-    <br>Based on your requirements, we can provide a complete offering or just the pieces you need</br></p>
-</div>
-    </div>
-</div class="center">
-    <h3>WHAT WE DO</h3>
-    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/design_icon.png?raw=true">
-    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/dev_icon.png?raw=true">
-    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/product_icon.png?raw=true">
+    </section>
+    <!-- End of what we do Section -->
+    <!-- Start of Portfolio Section  -->
+    <section class="mb-3">
+        <div class="container ">
+            <h1 class="text-center mt-2 ">PORTFOLIO</h1>
+            <div class="row gy-3">
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work4.jpg" alt="">
+                        <div id="img-description" class="image-overlay">
+                            <div class="image-title">Project 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work3.jpg" alt="">
+                        <div id="img-description" class="image-overlay">
+                            <div class="image-title">Project 2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work2.jpg" alt="">
+                        <div class="image-overlay">
+                            <div class="image-title">Project 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-img mx-auto d-block">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work1.jpg" alt="">
+                        <div class="image-overlay">
+                            <div class="image-title">Project 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row gy-3">
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work5.jpg" alt="">
+                        <div class="image-overlay ">
+                            <div class="image-title">Project 5</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work6.jpg" alt="">
+                        <div class="image-overlay">
+                            <div class="image-title">Project 6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work7.jpg" alt="">
+                        <div class="image-overlay">
+                            <div class="image-title">Project 7</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-img">
+                        <img class="img-fluid mx-auto d-block" src="./assets/img/work8.jpg" alt="">
+                        <div class="image-overlay">
+                            <div class="image-title">Project 8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h3>Portfolio</h3>
-    <ul class="grid-container" style="width: fit-content;">
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work1.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work2.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work3.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work4.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work5.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work6.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work7.jpg?raw=true"></li>
-        <li><img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work8.jpg?raw=true"></li>
-    </ul>
-    </div>
-</div>
-  </div>
-  <div>
-      <div class="container" style="position: relative;">
-          <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true" alt="#" style="width: fit-content;">
-          <div class="centered">
-          <h3>CONTACT US</h3>
-          <p>
-           <label></label>
-           <textarea  id="leftContainer" type="text" maxlength="200"  placeholder="Name..."></textarea>
-           <label></label>
-           <textarea  id="rightContainer" type="text" maxlength="200"  placeholder="Email..."></textarea>
-           <label></label>
-           <textarea  id="text" type="text" maxlength="400" rows="7" placeholder="comment..."></textarea>
-          </p>
-          </div>
-      </div>
+    <!-- End of portfolio Section -->
+    <!-- start of contact section -->
+    <section id="contact-section">
+        <div class="container py-3">
+            <h1 class="text-center">CONTACT US</h1>
+            
+            <!-- Begin Mailchimp Signup Form -->
+            <form id="contact-form">
+                    <div class="row">
+                        <div class="col-md mb-3 ">
+                            <input id="fname" type="text"class="form-control bg-transparent" placeholder="Name...">
+                        </div>
+                        <div class="col-md mb-3 ">
+                            <input id="email" class="form-control bg-transparent" type="email"placeholder="Email...">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id = "message"class="col-md mb-5">
+                            <textarea class="w-100 form-control bg-transparent " rows="10"  placeholder="Your Message here..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button type="submit"   class="btn btn-submit">Submit</button>
+                    </div>
+            </form> 
+        </div>
+    </section>
+    <!-- end of contact section  -->
+    <!-- footer -->
+    <footer class="text-center mt-4 small">
+        <p>
+            <img src="./assets/img/social_icons/twitter.png" alt="">
+            <img src="./assets/img/social_icons/dribble.png" alt="">
+            <img src="./assets/img/social_icons/facebook.png" alt="">
+            <img src="./assets/img/social_icons/g_plus.png" alt="">
+            <img src="./assets/img/social_icons/skype.png" alt="">
+            <img src="./assets/img/social_icons/stumble_upon.png" alt="">
+            <img src="./assets/img/social_icons/behance.png" alt="">
+            <img src="./assets/img/social_icons/pinterest.png" alt="">
+            <img src="./assets/img/social_icons/flickr.png" alt="">
+        </p>
+        <p>DELANI STUDIO </p>
+        <p id="year"></p>
+    </footer>
 
-  </div>
-  <div class="center">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/behance.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/dribble.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/facebook.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/flickr.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/g_plus.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/pinterest.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/skype.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/stumble_upon.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/twitter.png?raw=true">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/you_tube.png?raw=true">
-  </div>
-  <footer class="center">Delani Studio<br>2019</br></footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
