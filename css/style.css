@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /* style the header */
 #header{
     background-image: url("/images/assets/backgrounds/h_img.jpg");
@@ -21,6 +22,7 @@
     color:white;
     
   }
+
 
   /* style the service section */
 #service p{
@@ -49,7 +51,6 @@
     display: none;
     font-family: 'Montserrat', sans-serif;
 }
-
 #product-description{
     display: none;
     font-family: 'Montserrat', sans-serif;
